@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">IT18220834</string>
+    <string name="tx1">Home</string>
+    <string name="User_Name" />
+    <string name="password" />
+    <string name="pass">password</string>
+    <string name="user">username</string>
+    <string name="but">Login</string>
+    <string name="reg">Register</string>
+    <string name="textview2">ProfileManagement</string>
+    <string name="User_Name2" />
+    <string name="us2">username</string>
+    <string name="Db" />
+    <string name="dob">Date of Birth</string>
+    <string name="pass2" />
+    <string name="pas2">password</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="updateProfile">UpdateProfile</string>
+    <string name="gend">Gender</string>
+    <string name="update">Update Profile</string>
+    <string name="txt">Editprofile</string>
+    <string name="userna" />
+    <string name="user2">Username</string>
+    <string name="btn4">Search</string>
+    <string name="dob2" />
+    <string name="Hint3">Date of Birth</string>
+    <string name="passw" />
+    <string name="hint5">password</string>
+    <string name="gende">Gender</string>
+    <string name="mal">Male</string>
+    <string name="fem">Female</string>
+    <string name="Ed">Edit</string>
+    <string name="Del">Delete</string>
+    <string name="Ad">Add</string>
+</resources>

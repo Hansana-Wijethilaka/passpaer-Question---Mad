@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditProfile" >
+
+    <TextView
+        android:id="@+id/Head3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/txt"
+        android:textSize="36sp" />
+
+    <EditText
+        android:id="@+id/edit_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/user2"
+        android:inputType="textPersonName"
+        android:text="@string/userna"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/edit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn4" />
+
+    <EditText
+        android:id="@+id/edit_dob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Hint3"
+        android:inputType="textPersonName"
+        android:text="@string/dob2"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/edit_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint5"
+        android:inputType="textPersonName"
+        android:text="@string/passw"
+        android:importantForAutofill="no" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/gend2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gende"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/edit_male"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mal" />
+
+        <RadioButton
+            android:id="@+id/edit_female"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fem" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/edit_Ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Ed" />
+
+    <Button
+        android:id="@+id/edit_Del"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Del" />
+</LinearLayout>

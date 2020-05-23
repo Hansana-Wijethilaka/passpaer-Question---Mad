@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileManagement">
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/textview2"
+        android:textSize="36sp" />
+
+    <EditText
+        android:id="@+id/user_nam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/us2"
+        android:inputType="textPersonName"
+        android:text="@string/User_Name2"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/DOb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/dob"
+        android:inputType="textPersonName"
+        android:text="@string/Db"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/passw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/pas2"
+        android:inputType="textPersonName"
+        android:text="@string/pass2"
+        android:importantForAutofill="no" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/Gen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gend"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/ma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/male" />
+
+        <RadioButton
+            android:id="@+id/fe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/female" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Ad" />
+</LinearLayout>
